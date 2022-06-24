@@ -51,8 +51,6 @@ class MobileVerificationService
 
     }
 
-
-
     public function sendRequest( $endpoint ){
 
         $curl = curl_init();
