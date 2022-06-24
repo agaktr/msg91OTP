@@ -1,0 +1,17 @@
+{
+    "name": "apto/msg91",
+    "description": "A msg91.com OTP verification handler for PHP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Apto\\Msg91\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "agaktr",
+            "email": "katradis.agamemnon@gmail.com"
+        }
+    ],
+    "require": {}
+}
