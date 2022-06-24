@@ -2,6 +2,8 @@
     "name": "apto/msg91",
     "description": "A msg91.com OTP verification handler for PHP",
     "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Apto\\Msg91\\": "src/"
@@ -13,5 +15,7 @@
             "email": "katradis.agamemnon@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-curl": "*"
+    }
 }
